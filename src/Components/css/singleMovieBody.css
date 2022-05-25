@@ -1,0 +1,281 @@
+.movie-cover {
+  background-image: linear-gradient(
+    0deg,
+    rgba(2, 2, 2, 0) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.movie-detail {
+  margin-top: 250px;
+}
+
+.single-movie-general {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: normal;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.body-detail {
+  top: 50vh;
+  background-color: #1e2020;
+  border-radius: 50px;
+}
+
+.single-movie-h2 {
+  margin: 5px 0 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.single-movie-h3 {
+  color: #fff;
+  margin: 35px 0 10px 0;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.body-detail2 {
+  padding: 60px 20px 10px 0;
+  display: grid;
+  grid-template-columns: 25% 60%;
+  justify-content: center;
+  /* -moz-column-gap: 5%; */
+  /* column-gap: 5%; */
+  grid-template-areas:
+    "asside general"
+    "asside episodes"
+    "asside trailers"
+    "asside recomendations";
+}
+
+.asside {
+  grid-area: asside;
+  grid-row-start: asside;
+  grid-column-start: asside;
+  grid-row-end: asside;
+  grid-column-end: asside;
+}
+
+.show-img[data-v-49816e12] {
+  margin-left: 2.5%;
+  border-radius: 10px;
+  width: 95%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.fig {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.detail {
+  padding: 20px 2.5% 20px 4%;
+  font-size: 0.8rem;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 5%;
+  column-gap: 5%;
+  row-gap: 12px;
+  grid-template-areas: "title item";
+}
+
+.item {
+  grid-area: "item";
+  color: #fff;
+  margin-bottom: 2px;
+  padding-top: 0;
+}
+
+.detail--chip {
+  margin-top: 0;
+  margin-right: 3px;
+  margin-left: 1px;
+  color: #fff;
+  font-size: 0.8rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 2px 7px;
+  float: left;
+}
+
+.title {
+  grid-area: "title";
+  margin: 0;
+  padding: 5px 0 0 0;
+}
+
+.general[data-v-371828f6] {
+  grid-area: general;
+  grid-row-start: general;
+  grid-column-start: general;
+  grid-row-end: general;
+  grid-column-end: general;
+}
+
+.div[data-v-6e22e530] {
+  margin-top: 0;
+  position: relative;
+}
+
+.description[data-v-6e22e530] {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 5%;
+}
+
+.single-movie-p {
+  display: inline-block;
+  line-height: 2;
+}
+
+.trailers {
+  grid-area: trailers;
+}
+
+.carousel__container[data-v-65ea4494] {
+  transition: transform 0.45s;
+  font-size: 0;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+.movie--item[data-v-65ea4494] {
+  margin-top: 15px;
+  width: 390px;
+  height: 224px;
+  margin: 0 auto;
+}
+
+.recomendations[data-v-371828f6] {
+  grid-area: recomendations;
+  grid-row-start: recomendations;
+  grid-column-start: recomendations;
+  grid-row-end: recomendations;
+  grid-column-end: recomendations;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+}
+
+.content[data-v-1b71bf39] {
+  position: relative;
+}
+
+.carousel[data-v-1b71bf39] {
+  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  width: 100%;
+  position: relative;
+}
+
+.carousel__container[data-v-1b71bf39] {
+  transition: transform 0.45s;
+  font-size: 0;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+.carousel-item[data-v-1b71bf39] {
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  display: inline;
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.45s;
+  transform-origin: center left;
+}
+
+.movie-img[data-v-1b71bf39] {
+  width: 160px;
+  height: 240px;
+  margin: 0;
+}
+
+.single-movie-recommendation-figure {
+  display: inline-block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.image[data-v-1b71bf39] {
+  vertical-align: top;
+  border-radius: 15px;
+  width: 160px;
+  height: 240px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.poster-image {
+  border-radius: 25px;
+}
+
+.recom-slider {
+  margin: 0 20px;
+  overflow: "hidden";
+  padding: 2rem 0;
+}
+
+.recom-slider .recomendations-slider-img {
+  width: 100%;
+  height: 100%;
+}
+
+.recomendation-title {
+  margin-bottom: 0 !important;
+}
+
+.single-movie-reviews {
+  margin: 0 100px 50px 100px;
+}
+
+.hr-review-title {
+  color: white;
+  height: 5px !important;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+.hr-review-user {
+  color: white;
+  height: 2px !important;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+.user-review-photo {
+  height: 80px;
+  width: 85px;
+  margin: 20px 0;
+}

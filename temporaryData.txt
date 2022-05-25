@@ -1,0 +1,275 @@
+SearchBar.jsx
+
+<div class="container h-100 search-bar">
+<div class="d-flex justify-content-center h-100">
+  <div class="searchbar">
+    <form name="searchForm" method="post">
+
+      <input
+        class="search_input"
+        type="text"
+        name="searchItem"
+        placeholder="Search..."
+        value={this.state.searchQuery}
+        onChange={this.handleSearchInputChange}
+      />
+      <span onClick={this.searchForm.submit()} class="search_icon">
+        <img
+          src="https://cdn-icons.flaticon.com/png/512/2811/premium/2811790.png?token=exp=1643998159~hmac=84258d82aeae97f206927e0f43b80442"
+          alt="Search"
+        />
+      </span>
+    </form>
+  </div>
+</div>
+</div> 
+
+------------------------------------------------------------------------------------------------------
+SingleMovieGeneral.jsx
+
+trailer---------------------------
+
+<div data-v-371828f6="" class="body-detail3 trailers">
+                    <div>
+                      <div class="div">
+                        <h2>Trailers</h2>
+                        <div id="trailers" class="carousel">
+                          <div class="movie carousel__container">
+                            <p>
+                              <div class="carousel-item movie--item divs">
+                                <iframe
+                                  title="id1"
+                                  src="https://www.youtube.com/embed/-OZFAtJtAHw"
+                                  frameborder="0"
+                                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                  allowfullscreen="allowfullscreen"
+                                  class="video"
+                                ></iframe>
+                              </div>
+                              <div class="carousel-item movie--item divs">
+                                <iframe
+                                  title="id2"
+                                  src="https://www.youtube.com/embed/vuuVUiHgF3U"
+                                  frameborder="0"
+                                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                  allowfullscreen="allowfullscreen"
+                                  class="video"
+                                ></iframe>
+                              </div>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+recommendation ----------------------------------------
+
+<div className="content">
+              <div className="recomendations carousel">
+                <div>
+                  <div data-v-1b71bf39="" class="movie carousel__container">
+                    <div
+                      data-v-1b71bf39=""
+                      class="carousel-item movie--item"
+                    >
+                      <a
+                        data-v-1b71bf39=""
+                        href="/detail/ciHVBIyzfm/Endangered-Species"
+                        class=""
+                      >
+                        <figure
+                          data-v-1b71bf39=""
+                          class="movie-img single-movie-recommendation-figure"
+                        >
+                          <img
+                            data-v-1b71bf39=""
+                            src="https://image.tmdb.org/t/p/w500/ccsSqbpEqr2KK9eMvoeF8ERFCd5.jpg"
+                            alt="Endangered Species"
+                            class="image"
+                          />
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      data-v-1b71bf39=""
+                      class="carousel-item movie--item"
+                    >
+                      <a
+                        data-v-1b71bf39=""
+                        href="/detail/ciHVBIyzfm/Endangered-Species"
+                        class=""
+                      >
+                        <figure
+                          data-v-1b71bf39=""
+                          class="movie-img single-movie-recommendation-figure"
+                        >
+                          <img
+                            data-v-1b71bf39=""
+                            src="https://image.tmdb.org/t/p/w500/ccsSqbpEqr2KK9eMvoeF8ERFCd5.jpg"
+                            alt="Endangered Species"
+                            class="image"
+                          />
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      data-v-1b71bf39=""
+                      class="carousel-item movie--item"
+                    >
+                      <a
+                        data-v-1b71bf39=""
+                        href="/detail/n2w1qrdZOx/Jungle-Cruise"
+                        class=""
+                      >
+                        <figure
+                          data-v-1b71bf39=""
+                          class="movie-img single-movie-recommendation-figure"
+                        >
+                          <img
+                            data-v-1b71bf39=""
+                            src="https://image.tmdb.org/t/p/w500/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg"
+                            alt="Jungle Cruise"
+                            class="image"
+                          />
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      data-v-1b71bf39=""
+                      class="carousel-item movie--item"
+                    >
+                      <a
+                        data-v-1b71bf39=""
+                        href="/detail/WKrUc8CbXq/Luca"
+                        class=""
+                      >
+                        <figure
+                          data-v-1b71bf39=""
+                          class="movie-img single-movie-recommendation-figure"
+                        >
+                          <img
+                            data-v-1b71bf39=""
+                            src="https://image.tmdb.org/t/p/w500/jTswp6KyDYKtvC52GbHagrZbGvD.jpg"
+                            alt="Luca"
+                            class="image"
+                          />
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      data-v-1b71bf39=""
+                      class="carousel-item movie--item"
+                    >
+                      <a
+                        data-v-1b71bf39=""
+                        href="/detail/pKA8YDXD0b/Army-of-the-Dead"
+                        class=""
+                      >
+                        <figure
+                          data-v-1b71bf39=""
+                          class="movie-img single-movie-recommendation-figure"
+                        >
+                          <img
+                            data-v-1b71bf39=""
+                            src="https://image.tmdb.org/t/p/w500/z8CExJekGrEThbpMXAmCFvvgoJR.jpg"
+                            alt="Army of the Dead"
+                            class="image"
+                          />
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      data-v-1b71bf39=""
+                      class="carousel-item movie--item"
+                    >
+                      <a
+                        data-v-1b71bf39=""
+                        href="/detail/BzTDlkoPBn/Black-Widow"
+                        class=""
+                      >
+                        <figure
+                          data-v-1b71bf39=""
+                          class="movie-img single-movie-recommendation-figure"
+                        >
+                          <img
+                            data-v-1b71bf39=""
+                            src="https://image.tmdb.org/t/p/w500/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg"
+                            alt="Black Widow"
+                            class="image"
+                          />
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      data-v-1b71bf39=""
+                      class="carousel-item movie--item"
+                    >
+                      <a
+                        data-v-1b71bf39=""
+                        href="/detail/pKA8YDXD0b/Army-of-the-Dead"
+                        class=""
+                      >
+                        <figure
+                          data-v-1b71bf39=""
+                          class="movie-img single-movie-recommendation-figure"
+                        >
+                          <img
+                            data-v-1b71bf39=""
+                            src="https://image.tmdb.org/t/p/w500/z8CExJekGrEThbpMXAmCFvvgoJR.jpg"
+                            alt="Army of the Dead"
+                            class="image"
+                          />
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      data-v-1b71bf39=""
+                      class="carousel-item movie--item"
+                    >
+                      <a
+                        data-v-1b71bf39=""
+                        href="/detail/144BtxZQvx/The-Unholy"
+                        class=""
+                      >
+                        <figure
+                          data-v-1b71bf39=""
+                          class="movie-img single-movie-recommendation-figure"
+                        >
+                          <img
+                            data-v-1b71bf39=""
+                            src="https://image.tmdb.org/t/p/w500/cFOWiYDQ8Nttmt0K6PU38L48wWK.jpg"
+                            alt="The Unholy"
+                            class="image"
+                          />
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      data-v-1b71bf39=""
+                      class="carousel-item movie--item"
+                    >
+                      <a
+                        data-v-1b71bf39=""
+                        href="/detail/zrn0sUfB3U/A-Quiet-Place-Part-II"
+                        class=""
+                      >
+                        <figure
+                          data-v-1b71bf39=""
+                          class="movie-img single-movie-recommendation-figure"
+                        >
+                          <img
+                            data-v-1b71bf39=""
+                            src="https://image.tmdb.org/t/p/w500/4q2hz2m8hubgvijz8Ez0T2Os2Yv.jpg"
+                            alt="A Quiet Place Part II"
+                            class="image"
+                          />
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+------------------------------------------------------------------------------------------------------

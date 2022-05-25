@@ -1,0 +1,12 @@
+.review-rating-container {
+  border-radius: 20px;
+  background-color: #282d32;
+  padding: 100px 200px;
+  margin: 100px;
+}
+
+.media-title {
+  color: aliceblue;
+  display: inline;
+  font-weight: bold;
+}

@@ -1,0 +1,72 @@
+.profile-container {
+  /* border-radius: 20px; */
+  background-color: #282d32;
+  padding: 30px 50px;
+  margin: 20px auto;
+}
+
+.user-profile-photo {
+  height: 100px;
+  width: 100px;
+  margin: 20px 0;
+}
+
+.sidebar-button {
+  background-color: #282d32;
+  width: 50%;
+  margin: 10px 0;
+  border: 0;
+  color: blue;
+}
+
+.sidebar-button:checked {
+  background-color: #282d32;
+}
+
+.sidebar-button:hover {
+  background-color: #1f2124;
+}
+
+.user-name,
+.user-mail {
+  color: aliceblue;
+}
+
+.user-info {
+  margin: 20px 0 50px 0;
+}
+
+.hr-main {
+  color: white;
+  height: 5px !important;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+.hr-cat {
+  color: white;
+  height: 2px !important;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+.category-title {
+  color: white;
+}
+
+.category-div {
+  margin: 30px 0;
+}
+
+.watchlist-h4 {
+  color: aliceblue;
+}
+
+.review-p {
+  color: aliceblue;
+}
+
+#review-delete-icon {
+  border: 0;
+  background-color: transparent;
+}

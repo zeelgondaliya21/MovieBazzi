@@ -1,0 +1,23 @@
+.movie-img {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  height: 300px;
+  margin: 10px;
+}
+
+.latest-movie-hr {
+  border-top: 5px solid #1c87c9;
+}
+
+.movie-collection {
+  margin: 10px 0;
+}
+
+.movie-collection-title {
+  margin-top: 30px;
+}
+
+.movie-collection-container {
+  margin: 130px auto 0 auto;
+}

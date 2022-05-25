@@ -1,0 +1,39 @@
+.searched-data {
+  margin-top: 150px;
+}
+
+.search-collection {
+  margin: 10px 0;
+}
+
+.search-collection-title {
+  margin-top: 30px;
+}
+
+.search-hr {
+  border-top: 5px solid #1c87c9;
+}
+
+.search-img {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  height: 300px;
+  margin: 10px;
+}
+
+.filter-panel {
+  margin-top: 52px;
+  text-align: center;
+  align-items: center;
+}
+
+.filter-panel-switch {
+  margin: 10px;
+}
+
+.filter-panel-select {
+  margin: 10px;
+  display: inline-block !important;
+  min-width: 250px;
+}

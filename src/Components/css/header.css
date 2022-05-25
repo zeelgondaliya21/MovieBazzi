@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+
+.header-profile-name {
+  margin: 10px 20px;
+}
+
+.header-profile-name p {
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar-brand-logo {
+  width: 120px !important;
+  height: 40px !important;
+}
